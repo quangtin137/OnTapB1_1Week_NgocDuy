@@ -1,0 +1,993 @@
+{
+  "vocabulary": [
+    {
+      "id": 101,
+      "question": "Andrew managed ____________ a promotion.",
+      "options": [
+        "A. in getting",
+        "B. to get",
+        "C. getting",
+        "D. get"
+      ],
+      "answer": "B",
+      "hint": "Cấu trúc manage to do something: xoay sở, cố gắng làm gì."
+    },
+    {
+      "id": 102,
+      "question": "I’d rather ____________ with my cousin for the weekend.",
+      "options": [
+        "A. stay",
+        "B. to stay",
+        "C. staying",
+        "D. to staying"
+      ],
+      "answer": "A",
+      "hint": "Cấu trúc would rather + V (nguyên thể): thích làm gì hơn."
+    },
+    {
+      "id": 103,
+      "question": "They suggested ____________ the children to the new aquarium.",
+      "options": [
+        "A. to take",
+        "B. in taking",
+        "C. taking",
+        "D. to taking"
+      ],
+      "answer": "C",
+      "hint": "Sau suggest dùng V-ing: đề nghị làm gì."
+    },
+    {
+      "id": 104,
+      "question": "Don't forget ____________ off the computer when you finish.",
+      "options": [
+        "A. turning",
+        "B. to turning",
+        "C. turn",
+        "D. to turn"
+      ],
+      "answer": "D",
+      "hint": "Forget to do something: quên phải làm gì (chưa làm)."
+    },
+    {
+      "id": 105,
+      "question": "I'm sorry, but I don't really feel like ____________ them tonight.",
+      "options": [
+        "A. seeing",
+        "B. to see",
+        "C. see",
+        "D. to seeing"
+      ],
+      "answer": "A",
+      "hint": "Feel like + V-ing: muốn, thích làm gì."
+    },
+    {
+      "id": 106,
+      "question": "Charles ____________ his car washed for two months.",
+      "options": [
+        "A. hadn’t been",
+        "B. hasn’t had",
+        "C. hasn’t",
+        "D. hadn’t been having"
+      ],
+      "answer": "B",
+      "hint": "Cấu trúc nhờ vả (causative) ở thì hiện tại hoàn thành: has/have not had + O + PII."
+    },
+    {
+      "id": 107,
+      "question": "Could I ____________ by fax, please?",
+      "options": [
+        "A. have been sent",
+        "B. have sent it",
+        "C. had it sent",
+        "D. have it sent"
+      ],
+      "answer": "D",
+      "hint": "Cấu trúc bị động nhờ vả: have something done (have it sent)."
+    },
+    {
+      "id": 108,
+      "question": "You ____________ checked the report twice.",
+      "options": [
+        "A. should have been",
+        "B. could",
+        "C. should have",
+        "D. could have been"
+      ],
+      "answer": "C",
+      "hint": "Should have + PII: lẽ ra nên làm gì trong quá khứ."
+    },
+    {
+      "id": 109,
+      "question": "They ____________ come back from the shopping centre by now.",
+      "options": [
+        "A. must have",
+        "B. must have to",
+        "C. might be",
+        "D. may have been"
+      ],
+      "answer": "A",
+      "hint": "Must have + PII: chắc hẳn đã làm gì (suy đoán có cơ sở trong quá khứ)."
+    },
+    {
+      "id": 110,
+      "question": "I’m not sure, but I think he ____________ used your coffee mug.",
+      "options": [
+        "A. can have been",
+        "B. might have to",
+        "C. can be",
+        "D. may have"
+      ],
+      "answer": "D",
+      "hint": "May/might have + PII: có lẽ đã làm gì (suy đoán không chắc chắn trong quá khứ)."
+    },
+    {
+      "id": 111,
+      "question": "I was cooking and talking on the phone ____________.",
+      "options": [
+        "A. at once",
+        "B. at random",
+        "C. at a glance",
+        "D. at the same time"
+      ],
+      "answer": "D",
+      "hint": "At the same time: cùng một lúc."
+    },
+    {
+      "id": 112,
+      "question": "They’re having a lesson ____________.",
+      "options": [
+        "A. at random",
+        "B. at a glance",
+        "C. at the moment",
+        "D. at once"
+      ],
+      "answer": "C",
+      "hint": "At the moment: ngay lúc này (dấu hiệu của thì hiện tại tiếp diễn)."
+    },
+    {
+      "id": 113,
+      "question": "____________ of six, he wanted to become an astronaut.",
+      "options": [
+        "A. At a glance",
+        "B. At the age",
+        "C. At the moment",
+        "D. At the same time"
+      ],
+      "answer": "B",
+      "hint": "At the age of + số tuổi: vào năm bao nhiêu tuổi."
+    },
+    {
+      "id": 114,
+      "question": "The headmaster told them to go to their classroom ____________.",
+      "options": [
+        "A. at once",
+        "B. at the age",
+        "C. at his own speed",
+        "D. at a glance"
+      ],
+      "answer": "A",
+      "hint": "At once: ngay lập tức."
+    },
+    {
+      "id": 115,
+      "question": "I'm really sorry, but I didn't have ____________ that your mother was so seriously ill.",
+      "options": [
+        "A. the chance",
+        "B. an argument",
+        "C. a lot in common",
+        "D. the slightest idea"
+      ],
+      "answer": "D",
+      "hint": "Not have the slightest idea: không có ý niệm, không biết gì cả."
+    },
+    {
+      "id": 116,
+      "question": "The chief editor had ____________ at the whole magazine before it was printed.",
+      "options": [
+        "A. an effect",
+        "B. a look",
+        "C. a lot in common",
+        "D. an argument"
+      ],
+      "answer": "B",
+      "hint": "Have a look at: nhìn lướt qua, xem qua."
+    },
+    {
+      "id": 117,
+      "question": "I'm sure that he had ____________ leaving you here all by yourself.",
+      "options": [
+        "A. a look at",
+        "B. the chance",
+        "C. no intention of",
+        "D. an effect on"
+      ],
+      "answer": "C",
+      "hint": "Have no intention of + V-ing: không có ý định làm gì."
+    },
+    {
+      "id": 118,
+      "question": "Unfortunately, they had a big ____________ their supervisor yesterday morning.",
+      "options": [
+        "A. effect on",
+        "B. intention of",
+        "C. look at",
+        "D. argument with"
+      ],
+      "answer": "D",
+      "hint": "Have an argument with someone: cãi vã với ai đó."
+    },
+    {
+      "id": 119,
+      "question": "Gregory never ____________ what his mother tells him.",
+      "options": [
+        "A. informs",
+        "B. is used to",
+        "C. pays attention to",
+        "D. makes his way to"
+      ],
+      "answer": "C",
+      "hint": "Pay attention to: chú ý đến điều gì."
+    },
+    {
+      "id": 120,
+      "question": "Mona's teacher ____________ her from taking the exams.",
+      "options": [
+        "A. informed",
+        "B. discouraged",
+        "C. waited",
+        "D. made"
+      ],
+      "answer": "B",
+      "hint": "Discourage someone from doing something: can ngăn ai đó làm gì."
+    }
+  ],
+  "signs": [
+    {
+      "id": 11,
+      "image_url": "images/image_013_spd2m_image11.png",
+      "options": [
+        "A. The entrance to the bank is through the library.",
+        "B. The travel agency has moved its entrance.",
+        "C. The library is now a travel agency.",
+        "D. The travel agency is no longer open."
+      ],
+      "answer": "B",
+      "hint": "Biển báo thông báo cửa ra vào của travel agency đã được di chuyển."
+    },
+    {
+      "id": 12,
+      "image_url": "images/image_014_spd2m_image12.png",
+      "options": [
+        "A. This list shows who has been chosen to go on the trip.",
+        "B. This list should be signed by people wanting to go on the trip.",
+        "C. Check the list for information if you are going on the trip.",
+        "D. If you find your name on this list, you can go on the trip."
+      ],
+      "answer": "B",
+      "hint": "Biển báo yêu cầu những người muốn điền tên vào danh sách để tham gia chuyến đi."
+    },
+    {
+      "id": 13,
+      "image_url": "images/image_015_spd2m_image13.png",
+      "options": [
+        "A. The new ticket office is now open.",
+        "B. There will be two ticket offices after 17 September.",
+        "C. This ticket office will be closed for one day.",
+        "D. This ticket office will be closed on 16 September."
+      ],
+      "answer": "D",
+      "hint": "Thông báo quầy vé sẽ đóng cửa vào ngày 16/9."
+    },
+    {
+      "id": 14,
+      "image_url": "images/image_016_spd2m_image14.png",
+      "options": [
+        "A. If you spend less than £10, you cannot pay by credit card.",
+        "B. We prefer cash for large sales.",
+        "C. We make a charge if you pay by credit card.",
+        "D. If you spend more than £ 10, you must pay by credit card."
+      ],
+      "answer": "A",
+      "hint": "Cửa hàng không chấp nhận thanh toán bằng thẻ tín dụng nếu dưới 10 bảng."
+    },
+    {
+      "id": 15,
+      "image_url": "images/image_017_spd2m_image15.png",
+      "options": [
+        "A. Dogs must wait outside.",
+        "B. Dogs must walk with their owners.",
+        "C. Dogs must be kept on a chain.",
+        "D. Dogs must be held."
+      ],
+      "answer": "D",
+      "hint": "Yêu cầu chó phải được bế/ôm (must be held)."
+    },
+    {
+      "id": 16,
+      "image_url": "images/image_018_spd2m_image16.png",
+      "options": [
+        "A. Everything is cheaper this week.",
+        "B. No extra charges next week.",
+        "C. Usual prices this week.",
+        "D. Cheaper prices next week."
+      ],
+      "answer": "A",
+      "hint": "Giảm giá diễn ra vào tuần này (cheaper this week)."
+    },
+    {
+      "id": 17,
+      "image_url": "images/image_019_spd2m_image17.png",
+      "options": [
+        "A. You can send your groceries from here.",
+        "B. You can store your groceries here.",
+        "C. You can get your free groceries here.",
+        "D. You can have your groceries sent to you."
+      ],
+      "answer": "D",
+      "hint": "Dịch vụ giao hàng tận nhà (have your groceries sent to you)."
+    },
+    {
+      "id": 18,
+      "image_url": "images/image_020_spd2m_image18.png",
+      "options": [
+        "A. Cleaning now costs twice as much.",
+        "B. Cleaning costs are now cheaper.",
+        "C. Cleaning costs are going up.",
+        "D. Cleaning costs will stay the same."
+      ],
+      "answer": "B",
+      "hint": "Chi phí dọn dẹp rẻ hơn (cheaper)."
+    },
+    {
+      "id": 19,
+      "image_url": "images/image_021_spd2m_image19.png",
+      "options": [
+        "A. You must pay to park here.",
+        "B. If you use the train you can park here.",
+        "C. This space is for railway officials.",
+        "D. No one is allowed to park here."
+      ],
+      "answer": "B",
+      "hint": "Khách đi tàu hỏa được đậu xe ở đây."
+    },
+    {
+      "id": 20,
+      "image_url": "images/image_022_spd2m_image20.png",
+      "options": [
+        "A. You can buy your ticket during the journey.",
+        "B. You pay when you get off.",
+        "C. You have to book a seat before traveling.",
+        "D. You have to buy a ticket before your journey."
+      ],
+      "answer": "D",
+      "hint": "Phải mua vé trước khi bắt đầu hành trình."
+    }
+  ],
+  "readingPassages": [
+    {
+      "title": "MY FIRST SAFARI",
+      "content": "I had spent all night on a flight to Africa and I must admit I felt exhausted once I landed. The only thing that made me feel better was a smiling, tanned pilot who took us quickly through Customs. Life suddenly became a lot better when I realised that we wouldn't have to wait at all to catch our next flight. We were just about to board a much smaller plane this time, for our first African safari.\n\nWhen you are on a short break every hour matters, so the fact that we were short-cutting the queues at Customs meant that we could be heading off to the countryside much sooner than anyone had expected.\n\nOur second flight, the one from Nairobi, lasted less than an hour but was the most fascinating one I had ever been on. It took us out of the city until we reached Mount Kenya. There the view suddenly changed. Our pilot started flying lower, pointing out to the elephants, giraffes, gazelles and even rhinos as they ran beneath us. We did several rounds before reaching our final destination, Loisaba Lodge, where we landed.\n\nLoisaba Wilderness is a 150sq km, privately-managed wildlife area of land kept in its natural state, especially for wild animals to live in and be protected. It is much larger than many of Kenya's parks and a safe place for more than 250 species of birds and 50 species of mammals, including elephants. The wildlife here, unlike in the game parks, is still wild, and so, far more exciting to see than bored lions lying in front of tourists.\n\nWe were soon taken to our rooms, located high up on a hill. From each of the seven rooms guests can walk out on to their private balcony to enjoy the wildly dramatic view - 61,000 acres of savannah and rocky area lie beneath you. A bit further away, you can observe, what I believe was the highlight of the visit, a watering hole, always drawing in animals for a drink. I'm telling you, it's just breathtaking; one cannot visit this place only once in their lifetime.",
+      "questions": [
+        {
+          "id": "14_1",
+          "question": "1. When Jeremy arrived in Africa...",
+          "options": [
+            "A. he was quite excited about his trip.",
+            "B. he was too tired after the long flight.",
+            "C. he felt anxious about what was going to happen next.",
+            "D. he needed to get a good sleep as it was the middle of the night"
+          ],
+          "answer": "B",
+          "hint": "Trong đoạn 1, tác giả nói 'I felt exhausted once I landed' (cảm thấy kiệt sức)."
+        },
+        {
+          "id": "14_2",
+          "question": "2. Why was Jeremy so pleased to be met by the pilot?",
+          "options": [
+            "A. Because he wanted to make the most of his time on holiday.",
+            "B. Because he thought the pilot might not meet him.",
+            "C. Because he expected the pilot to be unfriendly.",
+            "D. Because he did not know where to go."
+          ],
+          "answer": "A",
+          "hint": "Đoạn 2: 'When you are on a short break every hour matters... heading off much sooner'."
+        },
+        {
+          "id": "14_3",
+          "question": "3. What does Jeremy say about the flight from Nairobi?",
+          "options": [
+            "A. It was far too long.",
+            "B. The pilot flew in a dangerous way.",
+            "C. They were followed by a smaller plane.",
+            "D. It offered many impressive views."
+          ],
+          "answer": "D",
+          "hint": "Đoạn 3 tác giả mô tả 'the view suddenly changed... pointing out to elephants, giraffes...'."
+        },
+        {
+          "id": "14_4",
+          "question": "4. What does Jeremy suggest about Loisaba?",
+          "options": [
+            "A. It is still a safe and natural environment for animals.",
+            "B. Tourists are no longer allowed there.",
+            "C. Many of the animals are being hunted.",
+            "D. The wild animals often attack people."
+          ],
+          "answer": "A",
+          "hint": "Đoạn 4: 'a safe place for more than 250 species of birds and 50 species of mammals...'"
+        },
+        {
+          "id": "14_5",
+          "question": "5. Which of the following might Jeremy write about his experience?",
+          "options": [
+            "A. “I am really concerned about the wild animals in Africa as they are facing great dangers.”",
+            "B. “It was thrilling to get a taste of natural Africa. It has been without a doubt an unforgettable experience.”",
+            "C. “Visiting Africa does not differ much from a day trip to the zoo. The conditions and animal facilities are almost the same.”",
+            "D. “Unfortunately tourists are once again taking over beautiful Africa. They are ruining the landscape and threatening the animals’ survival.”"
+          ],
+          "answer": "B",
+          "hint": "Xuyên suốt bài tác giả mô tả chuyến đi cực kỳ tuyệt vời và thú vị."
+        }
+      ]
+    },
+    {
+      "title": "TOM CRUISE",
+      "content": "When our teacher asked us to interview a person that we admire, I had never thought I could actually interview Tom Cruise. I had been thinking for some time who else I could talk to, but it seemed to me that anyone else would come a poor second.\n\nThen, one day, out of the blue, as I was enjoying a hot cup of chocolate in our local coffee shop, l heard a man asking me if he could sit next to me. As I turned around and saw Tom Cruise smiling at me, I was at a loss for words. He was so pleasant and friendly that I felt confident and asked him for a mini-interview. Much to my surprise, he happily agreed.\n\nOver the years, Tom Cruise has become one of the most popular and successful actors in the world. He has long been an international star, who gets paid millions of dollars for every film he makes. “I'm lucky,” says Tom. “I’m doing what I love, and I’m having a great time. Lots of people would love to do this job, but they didn't get the chances that I did.”\n\nFor many of us, however, Tom is more than just lucky or good-looking, as great acting ability and determination were needed for him to become one of Hollywood's biggest names.\n\nIs Tom happy with his success so far? He has a different outlook on his career than one might expect. “I’ve always looked to the future,” says Tom. “I feel I’m always developing as an actor. I’m looking for new things all the time. I want to challenge myself to be better and always try new things. I know I've made a lot of progress in my career, but I still have ambitions for the future.”\n\nAfter interviewing him, I understood that Tom Cruise has a mind of his own and he’s not at all like the characters in his movies. That’s why, I believe, he has had so much success in his career; because of both his talent as an actor and his personal strength. Tom always knew what he wanted to do with his life and did his best to succeed.",
+      "questions": [
+        {
+          "id": "15_1",
+          "question": "1. When Sarah was asked to interview the person she admired,...",
+          "options": [
+            "A. she never thought that she was likely to talk to Tom Cruise.",
+            "B. she was disappointed that her idol refused to talk to her.",
+            "C. she could not make up her mind as to whom she admired the most.",
+            "D. she was surprised to find out that she could write about a celebrity."
+          ],
+          "answer": "A",
+          "hint": "Đoạn 1: 'I had never thought I could actually interview Tom Cruise.'"
+        },
+        {
+          "id": "15_2",
+          "question": "2. Sarah says that Tom Cruise...",
+          "options": [
+            "A. is actually less friendly than he might seem.",
+            "B. did not originally want to be interviewed.",
+            "C. was uncomfortable talking about himself.",
+            "D. is very Iikeable as a person."
+          ],
+          "answer": "D",
+          "hint": "Đoạn 2: 'He was so pleasant and friendly...'"
+        },
+        {
+          "id": "15_3",
+          "question": "3. What does Tom say about other people who try to become actors?",
+          "options": [
+            "A. They are not as hard-working as successful actors.",
+            "B. He was more fortunate at certain points in his career.",
+            "C. They did not love the job as much as he did.",
+            "D. He took more risks than them to achieve success."
+          ],
+          "answer": "B",
+          "hint": "Đoạn 3: 'Lots of people would love to do this job, but they didn't get the chances that I did.'"
+        },
+        {
+          "id": "15_4",
+          "question": "4. How does Tom describe his attitude to his work?",
+          "options": [
+            "A. He is only interested in making millions of dollars as an international star.",
+            "B. He is unlucky and has had many breaks in his career.",
+            "C. He looks forward and wants to improve and develop.",
+            "D. He is determined to become famous one day, whatever the cost."
+          ],
+          "answer": "C",
+          "hint": "Đoạn 5: 'I feel I’m always developing as an actor... I want to challenge myself to be better...'"
+        },
+        {
+          "id": "15_5",
+          "question": "5. What might Sarah say about Tom Cruise?",
+          "options": [
+            "A. “Tom Cruise’s success seems to be more down to luck and connections than anything else.”",
+            "B. “Tom Cruise’s success is such that almost anyone can achieve it quite easily.”",
+            "C. “Tom Cruise wouldn’t be so successful if he didn’t try and work so hard.”",
+            "D. “Tom Cruise has not been greatly successful as he has a lot more to do.”"
+          ],
+          "answer": "C",
+          "hint": "Đoạn cuối: 'because of both his talent as an actor and his personal strength... did his best to succeed.'"
+        }
+      ]
+    }
+  ],
+  "clozeText": {
+    "title": "THE ART OF DRAWING",
+    "content": "Drawing has always been a very popular hobby. Young children draw with a pencil as (1)____ as they can hold one. Drawing is often seen as a special skill, and it is (2)____ that some people seem to draw perfect pictures without any effort. Yet drawing, like writing, can be (3)____; you can draw accurately if you work really hard at it.\n\nDrawing is first (4)____ all about looking carefully. It sounds easy to say that all you (5)____ to do is look at things, but it really is that simple. The best way to draw a familiar (6)____ is to imagine that you are looking at it for the first (7)____.\n\nNowadays there are (8)____ courses and materials available than ever before, (9)____ means that you can experiment to improve your skills. The only (10)____ is your imagination.",
+    "questions": [
+      {
+        "id": "cloze_1",
+        "question": "1.",
+        "options": [
+          "A. fast",
+          "B. immediately",
+          "C. soon",
+          "D. shortly"
+        ],
+        "answer": "C",
+        "hint": "As soon as: ngay khi."
+      },
+      {
+        "id": "cloze_2",
+        "question": "2.",
+        "options": [
+          "A. true",
+          "B. actual",
+          "C. exact",
+          "D. real"
+        ],
+        "answer": "A",
+        "hint": "It is true that: sự thật là."
+      },
+      {
+        "id": "cloze_3",
+        "question": "3.",
+        "options": [
+          "A. discovered",
+          "B. made",
+          "C. learnt",
+          "D. reached"
+        ],
+        "answer": "C",
+        "hint": "Kỹ năng vẽ có thể học được (can be learnt)."
+      },
+      {
+        "id": "cloze_4",
+        "question": "4.",
+        "options": [
+          "A. of",
+          "B. in",
+          "C. from",
+          "D. for"
+        ],
+        "answer": "A",
+        "hint": "First of all: trước tiên, đầu tiên là."
+      },
+      {
+        "id": "cloze_5",
+        "question": "5.",
+        "options": [
+          "A. should",
+          "B. need",
+          "C. must",
+          "D. could"
+        ],
+        "answer": "B",
+        "hint": "Need to do something: cần phải làm gì (all you need to do)."
+      },
+      {
+        "id": "cloze_6",
+        "question": "6.",
+        "options": [
+          "A. topic",
+          "B. subject",
+          "C. area",
+          "D. person"
+        ],
+        "answer": "B",
+        "hint": "Familiar subject: chủ thể/đối tượng quen thuộc để vẽ."
+      },
+      {
+        "id": "cloze_7",
+        "question": "7.",
+        "options": [
+          "A. period",
+          "B. term",
+          "C. moment",
+          "D. time"
+        ],
+        "answer": "D",
+        "hint": "For the first time: lần đầu tiên."
+      },
+      {
+        "id": "cloze_8",
+        "question": "8.",
+        "options": [
+          "A. more",
+          "B. many",
+          "C. plenty",
+          "D. much"
+        ],
+        "answer": "A",
+        "hint": "So sánh hơn 'than ever before' nên dùng 'more'."
+      },
+      {
+        "id": "cloze_9",
+        "question": "9.",
+        "options": [
+          "A. who",
+          "B. what",
+          "C. where",
+          "D. which"
+        ],
+        "answer": "D",
+        "hint": "Đại từ quan hệ 'which' thay thế cho cả mệnh đề phía trước (dấu phẩy + which)."
+      },
+      {
+        "id": "cloze_10",
+        "question": "10.",
+        "options": [
+          "A. final",
+          "B. end",
+          "C. limit",
+          "D. finish"
+        ],
+        "answer": "C",
+        "hint": "The only limit: giới hạn duy nhất."
+      }
+    ]
+  },
+  "sentenceTransformation": [
+    {
+      "id": 16,
+      "question": "They’ve caught the person who stole your bike! (caught)",
+      "prefix": "The person who",
+      "answer": "stole your bike has been caught!",
+      "hint": "Chuyển sang thể bị động (passive voice) với thì hiện tại hoàn thành."
+    },
+    {
+      "id": 17,
+      "question": "A neighbor is feeding our dog while we’re away. (being)",
+      "prefix": "Our dog is",
+      "answer": "being fed by a neighbor while we’re away",
+      "hint": "Thể bị động của thì hiện tại tiếp diễn: am/is/are + being + V-ed/P2."
+    },
+    {
+      "id": 18,
+      "question": "Could you lend me some money until the weekend? (borrow)",
+      "prefix": "Could I",
+      "answer": "borrow some money from you until the weekend?",
+      "hint": "Lend someone something = Borrow something from someone."
+    },
+    {
+      "id": 19,
+      "question": "Why don’t you return the sweater to the shop you got it from? (back)",
+      "prefix": "Why don’t you",
+      "answer": "take the sweater back to the shop you got it from?",
+      "hint": "Return = take something back (trả lại)."
+    },
+    {
+      "id": 20,
+      "question": "We need to go quickly or the shops will be closed. (up)",
+      "prefix": "We need to",
+      "answer": "hurry up or the shops will be closed.",
+      "hint": "Go quickly = hurry up (nhanh lên)."
+    },
+    {
+      "id": 21,
+      "question": "I don’t agree with your opinion of the new shopping center. (wrong)",
+      "prefix": "I think you",
+      "answer": "are wrong about the new shopping center.",
+      "hint": "Not agree = think you are wrong about (nghĩ bạn sai về...)."
+    },
+    {
+      "id": 22,
+      "question": "It’s not necessary to pay to use the office phone. (have)",
+      "prefix": "You don’t",
+      "answer": "have to pay to use the office phone.",
+      "hint": "Not necessary = don't have to (không cần phải)."
+    },
+    {
+      "id": 23,
+      "question": "It wasn’t necessary for me to buy a stamp for my letter. (need)",
+      "prefix": "I didn’t",
+      "answer": "need to buy a stamp for my letter.",
+      "hint": "Wasn't necessary = didn't need to (quá khứ của không cần phải)."
+    },
+    {
+      "id": 24,
+      "question": "It’s possible the the e-mail is from Alex. (might)",
+      "prefix": "The e-mail",
+      "answer": "might be from Alex.",
+      "hint": "It's possible = might be (có thể là)."
+    },
+    {
+      "id": 25,
+      "question": "My computer doesn’t work, so I can’t e-mail you. (wrong)",
+      "prefix": "There’s something",
+      "answer": "wrong with my computer, so I can’t e-mail you.",
+      "hint": "Doesn't work = there's something wrong with (có lỗi/vấn đề gì đó)."
+    }
+  ],
+  "listeningFillBlanks": {
+    "audio": "audio/Text01.mp3",
+    "title": "TEXT 1: Listen and fill in the missing words in the blanks.",
+    "content": "1. Being a kid can be lots of fun. You play a lot – you have a lot of games that Mom and Dad don’t know how to play. I love playing (1)____ I get a lot of time to play soccer as a kid. Adults don’t have as much time to play – my dad works so he doesn’t get to play soccer very much. One bad thing about a kid is school. I don’t really like going to school. I can’t stand doing (2)____ either especially cleaning my room. Oh, and, my brother has a new (3)____ that’s really annoying because he isn’t very good at playing it!\n\n2. Some good things about being a kid are: summer (4)____, playing sports, and getting lots of presents on my birthday – adults don’t get as many presents. I like playing with my friends every weekend, too. Bad things about being a kid are: some of the chores I have to do – I don’t mind doing some of them, but there are some I can’t (5)____, like doing dishes. Sometimes I can’t watch TV when my Dad wants to watch a program that I can’t watch. I don't like that, and, I don't like doing homework. But I am happy I don't have to pay (6)____! That’s one bad thing about being an adult.\n\n3. I don't like having to go to bed so early at (7)____. I always have to finish all the food on my plate, even if I don't like it yuck. One thing I really don't like. I don't like older people telling me what to do. That’s probably the (8)____ thing about being a kid. There are a lot of good things though. I don't have to work and my parents give me money for (9)____ when I am an adult, I’ll have to pay for everything. And, I get to see my friends all the time at school we have (10)____ so we can play. You don't have (10)____ when you’re an adult!",
+    "questions": [
+      {
+        "id": "l_fb_1",
+        "answer": "soccer",
+        "hint": "Tên môn thể thao bắt đầu bằng s."
+      },
+      {
+        "id": "l_fb_2",
+        "answer": "chores",
+        "hint": "Công việc vặt trong nhà."
+      },
+      {
+        "id": "l_fb_3",
+        "answer": "trumpet",
+        "hint": "Một loại nhạc cụ bằng đồng thổi bằng miệng."
+      },
+      {
+        "id": "l_fb_4",
+        "answer": "vacation",
+        "hint": "Kỳ nghỉ hè."
+      },
+      {
+        "id": "l_fb_5",
+        "answer": "stand",
+        "hint": "Cụm 'can't stand': không thể chịu đựng được."
+      },
+      {
+        "id": "l_fb_6",
+        "answer": "taxes",
+        "hint": "Người lớn thường phải đóng cái này cho nhà nước."
+      },
+      {
+        "id": "l_fb_7",
+        "answer": "7:30",
+        "hint": "Một mốc thời gian."
+      },
+      {
+        "id": "l_fb_8",
+        "answer": "worst",
+        "hint": "So sánh nhất của từ 'bad'."
+      },
+      {
+        "id": "l_fb_9",
+        "answer": "allowance",
+        "hint": "Tiền tiêu vặt."
+      },
+      {
+        "id": "l_fb_10",
+        "answer": "recess",
+        "hint": "Giờ ra chơi ở trường học."
+      }
+    ]
+  },
+  "listeningChooseABC": [
+    {
+      "audio": "audio/Text45.mp3",
+      "title": "TEXT 45: Listen carefully and choose the best answer (A, B, C) for each question.",
+      "questions": [
+        {
+          "id": "45_1",
+          "question": "1. Where did Doug and Diane first meet?",
+          "options": [
+            "A. At school",
+            "B. At a restaurant",
+            "C. At a party"
+          ],
+          "answer": "C",
+          "hint": "Chú ý lắng nghe địa điểm họ nói chuyện với nhau lần đầu."
+        },
+        {
+          "id": "45_2",
+          "question": "2. How did he know where she lived?",
+          "options": [
+            "A. He asked a friend for directions.",
+            "B. He followed her home.",
+            "C. He looked her up in the phone book."
+          ],
+          "answer": "A",
+          "hint": "Có người quen đã chỉ đường cho anh ấy."
+        },
+        {
+          "id": "45_3",
+          "question": "3. Where does Doug invite her to go with him on Thursday?",
+          "options": [
+            "A. To a restaurant",
+            "B. To a theater",
+            "C. To a dance"
+          ],
+          "answer": "B",
+          "hint": "Lắng nghe hoạt động giải trí mà anh ấy rủ cô ấy tham gia vào thứ Năm."
+        },
+        {
+          "id": "45_4",
+          "question": "4. What is Diane's response to his invitation on Thursday?",
+          "options": [
+            "A. She can't go out because she has to study.",
+            "B. She is sorry, but she has another date.",
+            "C. She has to work that day, so she can't go."
+          ],
+          "answer": "C",
+          "hint": "Lý do cô ấy từ chối liên quan đến công việc."
+        },
+        {
+          "id": "45_5",
+          "question": "5. How does Diane feel about Doug's idea for Friday?",
+          "options": [
+            "A. She thinks it would be a great idea if she had the time.",
+            "B. She feels that it would be an uninteresting outing.",
+            "C. She has done the activity before, so she'd rather not go."
+          ],
+          "answer": "B",
+          "hint": "Cô ấy cảm thấy ý tưởng đó không thú vị."
+        }
+      ]
+    },
+    {
+      "audio": null,
+      "title": "TEXT 46: Listen carefully and choose the best answer (A, B, C) for each question.",
+      "questions": [
+        {
+          "id": "46_1",
+          "question": "1. What is the man's name?",
+          "options": [
+            "A. His name is Mike.",
+            "B. He goes by Nick.",
+            "C. His friends call him Nate."
+          ],
+          "answer": "B",
+          "hint": "Tên của anh ấy được mọi người hay gọi là Nick."
+        },
+        {
+          "id": "46_2",
+          "question": "2. Where is the man from?",
+          "options": [
+            "A. He's from Brownston.",
+            "B. His hometown is Brownsburg.",
+            "C. He's originally from Brownsville."
+          ],
+          "answer": "C",
+          "hint": "Tên quê nhà kết thúc bằng hậu tố 'ville'."
+        },
+        {
+          "id": "46_3",
+          "question": "3. How old is the man?",
+          "options": [
+            "A. He's in his early twenties.",
+            "B. He's in his mid-twenties.",
+            "C. He's in his late twenties."
+          ],
+          "answer": "A",
+          "hint": "Độ tuổi rơi vào đầu những năm 20."
+        },
+        {
+          "id": "46_4",
+          "question": "4. Where did the man meet Sarah?",
+          "options": [
+            "A. He met her on a bus.",
+            "B. They were introduced at a party.",
+            "C. He saw her in a language class."
+          ],
+          "answer": "C",
+          "hint": "Hai người gặp nhau trong lớp học ngôn ngữ."
+        },
+        {
+          "id": "46_5",
+          "question": "5. Sarah’s older sister is worried that Nick ____.",
+          "options": [
+            "A. is a terrible language teacher",
+            "B. is going to be a negative influence on her",
+            "C. charges too much money for lessons"
+          ],
+          "answer": "B",
+          "hint": "Sự lo lắng của chị gái về việc ảnh hưởng tiêu cực (negative influence)."
+        }
+      ]
+    }
+  ],
+  "listeningTrueFalse": [
+    {
+      "audio": "audio/Text66.mp3",
+      "title": "TEXT 66: Listen and decide if the following statements are True (T) or False (F).",
+      "questions": [
+        {
+          "id": "66_1",
+          "question": "1. Paper has been used for hundreds of things for a long time ago.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Listen carefully about the timeline of paper usage."
+        },
+        {
+          "id": "66_2",
+          "question": "2. Before paper, people wrote on animal skins, bones, and stones.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "hint": "Listen to what was used before paper."
+        },
+        {
+          "id": "66_3",
+          "question": "3. Papyrus was similar to paper.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "hint": "Compare papyrus and paper."
+        },
+        {
+          "id": "66_4",
+          "question": "4. A Chinese government official invented the first real paper in 2700 BC.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Check the date 2700 BC."
+        },
+        {
+          "id": "66_5",
+          "question": "5. The first European paper mill was built in Spain in 1150.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "hint": "Check where and when the first European paper mill was built."
+        }
+      ]
+    },
+    {
+      "audio": null,
+      "title": "TEXT 67: Listen and decide if the following statements are True (T) or False (F).",
+      "questions": [
+        {
+          "id": "67_1",
+          "question": "1. Maria Guzman comes from Mexico City.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "hint": "Lắng nghe nơi sinh của Maria."
+        },
+        {
+          "id": "67_2",
+          "question": "2. Maria Guzman studies chemistry at the National Autonomous University of Mexico.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Kiểm tra xem ngành cô ấy học có phải là Chemistry không."
+        },
+        {
+          "id": "67_3",
+          "question": "3. The course lasts six months.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Lắng nghe độ dài của khóa học."
+        },
+        {
+          "id": "67_4",
+          "question": "4. She lives at home with her grandmother only.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Xem cô ấy có ở cùng ai khác ngoài bà không."
+        },
+        {
+          "id": "67_5",
+          "question": "5. Her grandmother speaks English because she went to an English speaking high school.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "hint": "Lý do bà cô ấy nói được tiếng Anh là gì."
+        }
+      ]
+    }
+  ]
+}

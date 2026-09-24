@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B1 CEFR English Exam Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="header-content">
+        <div class="title-area">
+          <h1>B1 CEFR English Exam Prep</h1>
+          <p>Master your skills for the B1 Certification</p>
+        </div>
+        <button class="btn-random" id="randomBtn">Tạo đề ngẫu nhiên mới</button>
+      </div>
+      <div class="score-sticky" id="scoreSticky" style="display: none;">
+        Score: <span id="currentScore">0</span>/65
+      </div>
+    </header>
+
+    <div class="section-filters glass-panel" id="sectionFilters">
+      <h3>Lựa chọn phần ôn tập:</h3>
+      <div class="filters-grid">
+        <label><input type="checkbox" value="vocab" checked> Vocabulary & Grammar</label>
+        <label><input type="checkbox" value="signs" checked> Signs</label>
+        <label><input type="checkbox" value="reading" checked> Reading</label>
+        <label><input type="checkbox" value="cloze" checked> Cloze Text</label>
+        <label><input type="checkbox" value="sentence" checked> Sentence Transformation</label>
+        <label><input type="checkbox" value="list_fb" checked> Listening Fill Blanks</label>
+        <label><input type="checkbox" value="list_mc" checked> Listening ABC</label>
+        <label><input type="checkbox" value="list_tf" checked> Listening True/False</label>
+      </div>
+    </div>
+
+    <main class="quiz-container" id="quizContainer">
+      <div class="loading-state" id="loadingState">
+        <div class="spinner"></div>
+        <p>Loading your exam...</p>
+      </div>
+    </main>
+
+    <div class="actions-container">
+      <button class="btn-submit" id="submitBtn" style="display: none;">Submit Exam</button>
+    </div>
+  </div>
+
+  <!-- Modal for results -->
+  <div class="modal-overlay" id="resultModal">
+    <div class="modal-content glass-panel">
+      <h2>Exam Completed!</h2>
+      <div class="score-circle">
+        <span id="finalScore">0</span>
+        <span class="total">/ 65</span>
+      </div>
+      <p id="scoreMessage">Great effort! Review your mistakes below.</p>
+      <button class="btn-close" id="closeModalBtn">Review Answers</button>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
