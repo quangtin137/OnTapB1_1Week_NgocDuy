@@ -170,6 +170,44 @@ body {
   gap: 0.75rem;
 }
 
+.cloze-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.cloze-table td {
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+td.q-number {
+  background-color: #f8fafc;
+  text-align: center;
+  width: 60px;
+}
+
+.cloze-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.cloze-table td.correct-option {
+  background-color: rgba(16, 185, 129, 0.2);
+}
+
+.cloze-table td.incorrect-option {
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
 /* Radio buttons styling */
 .option-label {
   display: flex;

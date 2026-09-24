@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 4. Cloze Text: fixed
     if (isSectionChecked('cloze')) {
-      renderPassageSection('Cloze Text', examData.clozeText, 'cloze', globalQuestionNumber);
+      renderClozeTableSection('Cloze Text', examData.clozeText, 'cloze', globalQuestionNumber);
       globalQuestionNumber += examData.clozeText.questions.length;
     }
 
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     quizContainer.appendChild(sectionHtml);
   }
 
-  function renderPassageSection(title, passageData, prefix, startNumber) {
+  function renderPassageSection(title, passageData, prefix, startNumber, isGridFormat = false) {
     const sectionHtml = document.createElement('div');
     sectionHtml.className = 'glass-panel';
     sectionHtml.innerHTML = `
@@ -136,7 +136,69 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     passageData.questions.forEach((q, index) => {
-      sectionHtml.appendChild(createMultipleChoiceBlock(q, prefix + '_' + q.id, startNumber + index));
+      sectionHtml.appendChild(createMultipleChoiceBlock(q, prefix + '_' + q.id, startNumber + index, isGridFormat));
+    });
+
+    quizContainer.appendChild(sectionHtml);
+  }
+
+  function renderClozeTableSection(title, passageData, prefix, startNumber) {
+    const sectionHtml = document.createElement('div');
+    sectionHtml.className = 'glass-panel';
+    sectionHtml.innerHTML = `
+      <h2 class="section-title">${title}</h2>
+      ${passageData.title ? `<h3>${passageData.title}</h3>` : ''}
+      <div class="reading-content">${passageData.content}</div>
+      <div style="overflow-x: auto;">
+        <table class="cloze-table">
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    `;
+
+    const tbody = sectionHtml.querySelector('tbody');
+
+    passageData.questions.forEach((q, index) => {
+      const tr = document.createElement('tr');
+      tr.className = 'question-block cloze-question-row';
+      tr.dataset.answer = q.answer;
+      tr.dataset.type = 'cloze_mc';
+      const currentNumber = startNumber + index;
+      const name = prefix + '_' + q.id;
+
+      const optionsHtml = q.options.map(opt => {
+        const letter = opt.substring(0, 1);
+        return `
+          <td>
+            <label class="option-label cloze-option">
+              <input type="radio" name="${name}" value="${letter}" />
+              <span>${opt}</span>
+            </label>
+          </td>
+        `;
+      }).join('');
+
+      tr.innerHTML = `
+        <td class="q-number"><strong>${currentNumber}.</strong></td>
+        ${optionsHtml}
+      `;
+
+      const hintTr = document.createElement('tr');
+      hintTr.className = 'cloze-hint-row';
+      hintTr.style.display = 'none';
+      hintTr.innerHTML = `<td colspan="5" class="hint-text"><strong>Correct Answer: ${q.answer}</strong><br>💡 Hint: ${q.hint}</td>`;
+
+      tbody.appendChild(tr);
+      tbody.appendChild(hintTr);
+
+      const inputs = tr.querySelectorAll('input[type="radio"]');
+      inputs.forEach(input => {
+        input.addEventListener('change', (e) => {
+          if (isSubmitted) return;
+          checkAnswerClozeTable(tr, hintTr, e.target.value, q.answer);
+        });
+      });
     });
 
     quizContainer.appendChild(sectionHtml);
@@ -200,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- COMPONENT CREATORS ---
 
-  function createMultipleChoiceBlock(qData, name, number) {
+  function createMultipleChoiceBlock(qData, name, number, isGridFormat = false) {
     const block = document.createElement('div');
     block.className = 'question-block';
     block.dataset.answer = qData.answer;
@@ -222,10 +284,12 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
     }).join('');
 
+    const gridClass = isGridFormat ? 'cloze-options-grid' : 'options-grid';
+
     block.innerHTML = `
       <div class="question-text"><strong>${number}.</strong> ${qData.question}</div>
       ${mediaHtml}
-      <div class="options-grid">
+      <div class="${gridClass}">
         ${optionsHtml}
       </div>
       <div class="correct-answer-text">Correct Answer: ${qData.answer}</div>
@@ -331,6 +395,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function checkAnswerClozeTable(tr, hintTr, selectedValue, correctAnswer) {
+    const tds = tr.querySelectorAll('td');
+    tds.forEach(td => {
+      td.classList.remove('correct-option', 'incorrect-option');
+    });
+
+    const selectedTd = tr.querySelector(`input[value="${selectedValue}"]`)?.closest('td');
+    const correctTd = tr.querySelector(`input[value="${correctAnswer}"]`)?.closest('td');
+
+    if (selectedValue === correctAnswer) {
+      tr.dataset.isCorrect = "true";
+      if (selectedTd) selectedTd.classList.add('correct-option');
+      hintTr.style.display = 'none';
+    } else {
+      tr.dataset.isCorrect = "false";
+      if (selectedTd) selectedTd.classList.add('incorrect-option');
+      if (correctTd) correctTd.classList.add('correct-option');
+      hintTr.style.display = 'table-row';
+    }
+  }
+
   function checkAnswerText(block, userInput, correctAnswer) {
     block.classList.remove('correct', 'incorrect');
     
@@ -365,7 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let isCorrect = false;
 
       // Un-answered questions become incorrect
-      if (type === 'mc') {
+      if (type === 'mc' || type === 'cloze_mc') {
         const checked = block.querySelector('input:checked');
         if (checked && checked.value === correctAnswer) {
           isCorrect = true;
@@ -382,6 +467,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (type === 'mc') {
           const checked = block.querySelector('input:checked');
           if (checked) checked.closest('.option-label').classList.add('correct-option');
+        } else if (type === 'cloze_mc') {
+          const checked = block.querySelector('input:checked');
+          if (checked) checked.closest('td').classList.add('correct-option');
         } else {
           block.classList.add('correct');
           block.classList.remove('incorrect');
@@ -392,6 +480,15 @@ document.addEventListener('DOMContentLoaded', () => {
           if (checked) checked.closest('.option-label').classList.add('incorrect-option');
           const correctLabel = block.querySelector(`input[value="${correctAnswer}"]`)?.closest('.option-label');
           if (correctLabel) correctLabel.classList.add('correct-option');
+        } else if (type === 'cloze_mc') {
+          const checked = block.querySelector('input:checked');
+          if (checked) checked.closest('td').classList.add('incorrect-option');
+          const correctTd = block.querySelector(`input[value="${correctAnswer}"]`)?.closest('td');
+          if (correctTd) correctTd.classList.add('correct-option');
+          const hintTr = block.nextElementSibling;
+          if (hintTr && hintTr.classList.contains('cloze-hint-row')) {
+            hintTr.style.display = 'table-row';
+          }
         } else {
           block.classList.add('incorrect');
           block.classList.remove('correct');
