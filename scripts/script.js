@@ -373,6 +373,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- CHECKING LOGIC ---
 
+  function normalizeText(text) {
+    if (!text) return '';
+    return text
+      .replace(/[.,!?]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+  }
+
   function checkAnswerMultipleChoice(block, selectedValue, correctAnswer) {
     const optionLabels = block.querySelectorAll('.option-label');
     optionLabels.forEach(label => {
@@ -419,8 +428,8 @@ document.addEventListener('DOMContentLoaded', () => {
   function checkAnswerText(block, userInput, correctAnswer) {
     block.classList.remove('correct', 'incorrect');
     
-    const normalizedInput = userInput.replace(/[.,!?]/g, '').trim().toLowerCase();
-    const normalizedAnswer = correctAnswer.replace(/[.,!?]/g, '').trim().toLowerCase();
+    const normalizedInput = normalizeText(userInput);
+    const normalizedAnswer = normalizeText(correctAnswer);
     const hintText = block.querySelector('.hint-text');
     const correctAnswerText = block.querySelector('.correct-answer-text');
     
@@ -456,8 +465,8 @@ document.addEventListener('DOMContentLoaded', () => {
           isCorrect = true;
         }
       } else {
-        const inputVal = block.querySelector('input').value.replace(/[.,!?]/g, '').trim().toLowerCase();
-        if (inputVal === correctAnswer.replace(/[.,!?]/g, '').trim().toLowerCase()) {
+        const inputVal = normalizeText(block.querySelector('input').value);
+        if (inputVal === normalizeText(correctAnswer)) {
           isCorrect = true;
         }
       }
